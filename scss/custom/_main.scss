@@ -8,3 +8,105 @@
     background-image: -webkit-linear-gradient(top, #216a94, #3097D1);
     background-image: linear-gradient(to bottom, #216a94, #3097D1);
 }
+
+ul.posts-list li,
+.posts-card .card-title,
+.posts-card .card-text,
+.entry-title {
+    a {
+    color: $body-color;
+    text-decoration: $link-decoration;
+    transition: all 0.3s ease;
+
+    @include hover-focus {
+      color: $link-color;
+      text-decoration: $link-decoration;
+    }
+  }
+}
+
+.entry-header::after {
+  display: block;
+  width: 160px;
+  height: 4px;
+  border-radius: 3px;
+  background: #efefef;
+  content: "";
+  margin-top: 1rem;
+}
+
+
+.entry-meta {
+    color: #999;
+    a {
+    color: #999;
+    text-decoration: $link-decoration;
+    transition: all 0.3s ease;
+
+    @include hover-focus {
+      color: $link-color;
+      text-decoration: $link-decoration;
+    }
+  }
+}
+
+.border-0 {
+  border: 0;
+}
+
+.pd-0 {
+  padding: 0;
+}
+
+.post-thumbnail {
+  //width: 225px;
+}
+@media (min-width: 1200px) {
+  .post-thumbnail {
+    width: 250px;
+  } }
+
+.entry {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.card {
+  .card-block {
+    ul {
+      margin-bottom: 0; //覆盖默认的1re
+    }
+  }
+}
+
+//文字超出一行显示省略号
+.text-overflow-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+ul.posts-list li {
+  @extend .text-overflow-ellipsis;
+}
+
+.sidebar .card {
+  margin-bottom: 1rem;
+}
+blockquote,
+.blockquote {
+background: #f9f9f9;
+border-left: 10px solid #ccc;
+margin: 1.5em 10px;
+padding: 0.5em 10px;
+font-size: 1rem;
+quotes: "“" "”" "‘" "’";
+}
+blockquote::before,
+.blockquote::before{
+  color: #ccc;
+content: open-quote;
+font-size: 4em;
+line-height: 0.1em;
+margin-right: 0.25em;
+vertical-align: -0.4em;
+}

@@ -281,7 +281,7 @@ body {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
   font-weight: normal;
-  line-height: 1.5;
+  line-height: 1.8;
   color: #292b2c;
   background-color: #fff; }
 
@@ -441,22 +441,22 @@ h1, h2, h3, h4, h5, h6,
   color: inherit; }
 
 h1, .h1 {
-  font-size: 2.5rem; }
+  font-size: 1.8rem; }
 
 h2, .h2 {
-  font-size: 2rem; }
+  font-size: 1.4rem; }
 
 h3, .h3 {
-  font-size: 1.75rem; }
+  font-size: 1.2rem; }
 
 h4, .h4 {
-  font-size: 1.5rem; }
+  font-size: 1rem; }
 
 h5, .h5 {
-  font-size: 1.25rem; }
+  font-size: 0.85rem; }
 
 h6, .h6 {
-  font-size: 1rem; }
+  font-size: 0.85rem; }
 
 .lead {
   font-size: 1.25rem;
@@ -2596,7 +2596,7 @@ tbody.collapse.show {
 .custom-control {
   position: relative;
   display: inline-flex;
-  min-height: 1.5rem;
+  min-height: 1.8rem;
   padding-left: 1.5rem;
   margin-right: 1rem;
   cursor: pointer; }
@@ -2622,7 +2622,7 @@ tbody.collapse.show {
 
 .custom-control-indicator {
   position: absolute;
-  top: 0.25rem;
+  top: 0.4rem;
   left: 0;
   display: block;
   width: 1rem;
@@ -3239,7 +3239,7 @@ tbody.collapse.show {
           border-radius: 0; } }
 @media (min-width: 576px) {
   .card-columns {
-    column-count: 3;
+    column-count: 4;
     column-gap: 1.25rem; }
     .card-columns .card {
       display: inline-block;
@@ -3760,7 +3760,7 @@ button.close {
 
 .modal-title {
   margin-bottom: 0;
-  line-height: 1.5; }
+  line-height: 1.8; }
 
 .modal-body {
   position: relative;
@@ -3804,7 +3804,7 @@ button.close {
   font-weight: normal;
   letter-spacing: normal;
   line-break: auto;
-  line-height: 1.5;
+  line-height: 1.8;
   text-align: left;
   text-align: start;
   text-decoration: none;
@@ -3886,7 +3886,7 @@ button.close {
   font-weight: normal;
   letter-spacing: normal;
   line-break: auto;
-  line-height: 1.5;
+  line-height: 1.8;
   text-align: left;
   text-align: start;
   text-decoration: none;
