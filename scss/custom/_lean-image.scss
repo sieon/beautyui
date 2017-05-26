@@ -1,0 +1,35 @@
+.image-mini,
+.image-tiny,
+.image-small,
+.image-medium,
+.image-large,
+.image-big,
+.image-huge,
+.image-massive {
+  display: block;
+}
+
+.image-mini	{
+  width: 35px;
+}
+.image-tiny {
+  width: 80px
+}
+.image-small {
+  width: 150px
+}
+.image-medium	{
+  width: 300px
+}
+.image-large	{
+  width: 450px
+}
+.image-big	{
+  width: 600px
+}
+.image-huge	{
+  width: 800px
+}
+.image-massive	{
+  width: 960px
+}

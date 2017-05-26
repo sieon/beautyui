@@ -3240,7 +3240,7 @@ tbody.collapse.show {
 @media (min-width: 576px) {
   .card-columns {
     column-count: 3;
-    column-gap: 1.25rem; }
+    column-gap: 0.65rem; }
     .card-columns .card {
       display: inline-block;
       width: 100%;
