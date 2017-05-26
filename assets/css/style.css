@@ -45,12 +45,6 @@ ul.posts-list li a,
       color: #0275d8;
       text-decoration: none; }
 
-.border-0 {
-  border: 0; }
-
-.pd-0 {
-  padding: 0; }
-
 @media (min-width: 1200px) {
   .post-thumbnail {
     width: 250px; } }
@@ -215,5 +209,36 @@ blockquote::before,
   .comment-reply-title small a:hover,
   .comment-reply-title small a:focus {
     color: #1a1a1a; }
+
+.marginauto {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto; }
+
+.border-0 {
+  border: 0; }
+
+.pa-0 {
+  padding: 0; }
+
+.pt-0 {
+  padding-top: 0; }
+
+.pb-0 {
+  padding-bottom: 0; }
+
+.pl-0 {
+  padding-left: 0; }
+
+.pr-0 {
+  padding-right: 0; }
+
+.ptb-0 {
+  padding-top: 0;
+  padding-bottom: 0; }
+
+.plr-0 {
+  padding-left: 0;
+  padding-right: 0; }
 
 /*# sourceMappingURL=style.css.map */

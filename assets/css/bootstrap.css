@@ -3239,7 +3239,7 @@ tbody.collapse.show {
           border-radius: 0; } }
 @media (min-width: 576px) {
   .card-columns {
-    column-count: 4;
+    column-count: 3;
     column-gap: 1.25rem; }
     .card-columns .card {
       display: inline-block;
