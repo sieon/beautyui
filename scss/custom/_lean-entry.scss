@@ -5,6 +5,47 @@
   margin-bottom: 1rem;
   transition: all 0.3s ease;
   &:hover{
-    background-color: #f5f5f5;
+    background-color: #faf7fa;
   }
+}
+
+
+ul.posts-list li,
+.posts-card .card-title,
+.posts-card .card-text,
+.entry-title {
+    a {
+    color: $body-color;
+    text-decoration: $link-decoration;
+    transition: all 0.3s ease;
+
+    @include hover-focus {
+      color: $link-color;
+      text-decoration: $link-decoration;
+    }
+  }
+}
+
+.entry-meta {
+    color: #999;
+    a {
+    color: #999;
+    text-decoration: $link-decoration;
+    transition: all 0.3s ease;
+
+    @include hover-focus {
+      color: $link-color;
+      text-decoration: $link-decoration;
+    }
+  }
+}
+
+.entry-header::after {
+  display: block;
+  width: 160px;
+  height: 4px;
+  border-radius: 3px;
+  background: #efefef;
+  content: "";
+  margin-top: 1rem;
 }

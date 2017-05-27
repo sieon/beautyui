@@ -33,49 +33,9 @@
   background-image: -webkit-linear-gradient(top, #216a94, #3097D1);
   background-image: linear-gradient(to bottom, #216a94, #3097D1); }
 
-ul.posts-list li a,
-.posts-card .card-title a,
-.posts-card .card-text a,
-.entry-title a {
-  color: #292b2c;
-  text-decoration: none;
-  transition: all 0.3s ease; }
-  ul.posts-list li a:focus, ul.posts-list li a:hover,
-  .posts-card .card-title a:focus,
-  .posts-card .card-title a:hover,
-  .posts-card .card-text a:focus,
-  .posts-card .card-text a:hover,
-  .entry-title a:focus,
-  .entry-title a:hover {
-    color: #0275d8;
-    text-decoration: none; }
-
-.entry-header::after {
-  display: block;
-  width: 160px;
-  height: 4px;
-  border-radius: 3px;
-  background: #efefef;
-  content: "";
-  margin-top: 1rem; }
-
-.entry-meta {
-  color: #999; }
-  .entry-meta a {
-    color: #999;
-    text-decoration: none;
-    transition: all 0.3s ease; }
-    .entry-meta a:focus, .entry-meta a:hover {
-      color: #0275d8;
-      text-decoration: none; }
-
 @media (min-width: 1200px) {
   .post-thumbnail {
     width: 250px; } }
-.entry {
-  padding-top: 1rem;
-  padding-bottom: 1rem; }
-
 .card .card-block ul {
   margin-bottom: 0; }
 
@@ -241,7 +201,43 @@ blockquote::before,
   margin-bottom: 1rem;
   transition: all 0.3s ease; }
   .entry:hover {
-    background-color: #f5f5f5; }
+    background-color: #faf7fa; }
+
+ul.posts-list li a,
+.posts-card .card-title a,
+.posts-card .card-text a,
+.entry-title a {
+  color: #292b2c;
+  text-decoration: none;
+  transition: all 0.3s ease; }
+  ul.posts-list li a:focus, ul.posts-list li a:hover,
+  .posts-card .card-title a:focus,
+  .posts-card .card-title a:hover,
+  .posts-card .card-text a:focus,
+  .posts-card .card-text a:hover,
+  .entry-title a:focus,
+  .entry-title a:hover {
+    color: #0275d8;
+    text-decoration: none; }
+
+.entry-meta {
+  color: #999; }
+  .entry-meta a {
+    color: #999;
+    text-decoration: none;
+    transition: all 0.3s ease; }
+    .entry-meta a:focus, .entry-meta a:hover {
+      color: #0275d8;
+      text-decoration: none; }
+
+.entry-header::after {
+  display: block;
+  width: 160px;
+  height: 4px;
+  border-radius: 3px;
+  background: #efefef;
+  content: "";
+  margin-top: 1rem; }
 
 .image-mini,
 .image-tiny,

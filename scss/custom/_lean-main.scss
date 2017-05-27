@@ -9,47 +9,6 @@
     background-image: linear-gradient(to bottom, #216a94, #3097D1);
 }
 
-ul.posts-list li,
-.posts-card .card-title,
-.posts-card .card-text,
-.entry-title {
-    a {
-    color: $body-color;
-    text-decoration: $link-decoration;
-    transition: all 0.3s ease;
-
-    @include hover-focus {
-      color: $link-color;
-      text-decoration: $link-decoration;
-    }
-  }
-}
-
-.entry-header::after {
-  display: block;
-  width: 160px;
-  height: 4px;
-  border-radius: 3px;
-  background: #efefef;
-  content: "";
-  margin-top: 1rem;
-}
-
-
-.entry-meta {
-    color: #999;
-    a {
-    color: #999;
-    text-decoration: $link-decoration;
-    transition: all 0.3s ease;
-
-    @include hover-focus {
-      color: $link-color;
-      text-decoration: $link-decoration;
-    }
-  }
-}
-
 .post-thumbnail {
   //width: 225px;
 }
@@ -58,10 +17,6 @@ ul.posts-list li,
     width: 250px;
   } }
 
-.entry {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
 .card {
   .card-block {
     ul {
