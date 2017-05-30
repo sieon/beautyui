@@ -9,20 +9,22 @@
     background-image: linear-gradient(to bottom, #216a94, #3097D1);
 }
 
-.post-thumbnail {
-  //width: 225px;
-}
-@media (min-width: 1200px) {
-  .post-thumbnail {
-    width: 250px;
-  } }
-
-.card {
-  .card-block {
-    ul {
-      margin-bottom: 0; //覆盖默认的1re
-    }
+.carousel-number {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  float: left;
+  z-index: 15;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  li {
+    margin-left: 10px;
   }
+}
+
+.carousel-item a img {
+  width: 100%;
 }
 
 //文字超出一行显示省略号

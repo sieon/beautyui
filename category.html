@@ -8,6 +8,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="assets/css/bootstrap.css">
   <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 </head>
 <body>
   <nav class="navbar navbar-toggleable-md navbar-light">
@@ -18,15 +19,24 @@
       <a class="navbar-brand" href="index.html">轻主题</a>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active"><a class="nav-link" href="index.html">首页 <span class="sr-only">(current)</span></a></li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">首页 <span class="sr-only">(current)</span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li class="nav-item"><a class="nav-link" href="index-2.html">首页 2</a></li>
+              <li class="nav-item"><a class="nav-link" href="index-3.html">首页 3</a></li>
+              <li class="nav-item"><a class="nav-link" href="index-4.html">首页 4</a></li>
+              <li class="nav-item"><a class="nav-link" href="index-5.html">首页 5</a></li>
+              <li class="nav-item"><a class="nav-link" href="index-6.html">首页 6</a></li>
+            </ul>
+          </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">分类列表</a>
             <ul class="dropdown-menu" role="menu">
-              <li class="nav-item"><a class="nav-link" href="category.html">默认左右</a></li>
-              <li class="nav-item"><a class="nav-link" href="category2.html">图片标题列表</a></li>
-              <li class="nav-item"><a class="nav-link" href="category3.html">图文卡片</a></li>
-              <li class="nav-item"><a class="nav-link" href="category4.html">图文卡片2</a></li>
-              <li class="nav-item"><a class="nav-link" href="category5.html">图片</a></li>
+              <li class="nav-item"><a class="nav-link" href="category.html">文章列表-中图</a></li>
+              <li class="nav-item"><a class="nav-link" href="category4.html">文章列表-大图</a></li>
+              <li class="nav-item"><a class="nav-link" href="category3.html">文章列表-Masonry布局</a></li>
+              <li class="nav-item"><a class="nav-link" href="category2.html">相册-Masonry1</a></li>
+              <li class="nav-item"><a class="nav-link" href="category5.html">相册-Masonry2</a></li>
             </ul>
           </li>
           <li class="nav-item"><a class="nav-link" href="single.html">文章</a></li>
@@ -57,8 +67,8 @@
     <div class="col-8">
       <ul class="list-unstyled">
         <li class="media entry">
-          <div class="img-box d-flex mr-3">
-            <a href="single.html" class="post-thumbnail">
+          <div class="thumbnail-medium d-flex mr-3">
+            <a href="single.html">
               <img src="assets/img/320x200p/320x200-p7.png" class="img-fluid">
             </a>
           </div>
@@ -66,9 +76,9 @@
             <h3 class="entry-title"><a href="single.html" rel="bookmark">海边儿海边儿啊，真漂亮！！</a></h3>
             <div class="entry-meta">
               <small>
-                <span class="post-author"><a href="author.html">mxy</a></span>
-                <span class="">&nbsp;•&nbsp;</span>
-                <span class="post-time">2017年3月26日</span>
+                <span class="post-author"><a href="author.html"><i class="fa fa-user"></i> mxy</a></span>
+                <!-- <span class="">&nbsp;•&nbsp;</span> -->
+                <span class="post-time"><i class="fa fa-calender"></i>2017年3月26日</span>
                 <span class="">&nbsp;•&nbsp;</span>
                 <span class="post-comment-count">
                   <a href="http://demo.qingzhuti.com/11142.html#respond">去抢首评</a>
@@ -78,10 +88,11 @@
       			<div class="entry-excerpt text-muted">
               <p>一个博客成功在很大基础上是因为它的定位清晰和优质内容。可我们通常见到一些新手站长或者想做自己博客的童鞋们.</p>
       			</div>
+            <p class="mb-0"><a href="single.html" class="btn btn-warning btn-sm">阅读全文</a></p>
           </div>
         </li>
         <li class="media entry">
-          <div class="img-box d-flex mr-3">
+          <div class="thumbnail-medium d-flex mr-3">
             <a href="single.html" class="post-thumbnail">
               <img src="assets/img/320x200p/320x200-p2.png" class="img-fluid">
             </a>
@@ -105,7 +116,7 @@
           </div>
         </li>
         <li class="media entry">
-          <div class="img-box d-flex mr-3">
+          <div class="thumbnail-medium d-flex mr-3">
             <a href="single.html" class="post-thumbnail">
               <img src="assets/img/320x200p/320x200-p3.png" class="img-fluid">
             </a>
@@ -129,7 +140,7 @@
           </div>
         </li>
         <li class="media entry">
-          <div class="img-box d-flex mr-3">
+          <div class="thumbnail-medium d-flex mr-3">
             <a href="single.html" class="post-thumbnail">
               <img src="assets/img/320x200p/320x200-p4.png" class="img-fluid">
             </a>
@@ -153,7 +164,7 @@
           </div>
         </li>
         <li class="media entry">
-          <div class="img-box d-flex mr-3">
+          <div class="thumbnail-medium d-flex mr-3">
             <a href="single.html" class="post-thumbnail">
               <img src="assets/img/320x200p/320x200-p5.png" class="img-fluid">
             </a>
@@ -177,7 +188,7 @@
           </div>
         </li>
         <li class="media entry">
-          <div class="img-box d-flex mr-3">
+          <div class="thumbnail-medium d-flex mr-3">
             <a href="single.html" class="post-thumbnail">
               <img src="assets/img/320x200p/320x200-p6.png" class="img-fluid">
             </a>
@@ -201,7 +212,7 @@
           </div>
         </li>
         <li class="media entry">
-          <div class="img-box d-flex mr-3">
+          <div class="thumbnail-medium d-flex mr-3">
             <a href="single.html" class="post-thumbnail">
               <img src="assets/img/320x200p/320x200-p7.png" class="img-fluid">
             </a>
@@ -225,7 +236,7 @@
           </div>
         </li>
         <li class="media entry">
-          <div class="img-box d-flex mr-3">
+          <div class="thumbnail-medium d-flex mr-3">
             <a href="single.html" class="post-thumbnail">
               <img src="assets/img/320x200p/320x200-p8.png" class="img-fluid">
             </a>
@@ -249,7 +260,7 @@
           </div>
         </li>
         <li class="media entry">
-          <div class="img-box d-flex mr-3">
+          <div class="thumbnail-medium d-flex mr-3">
             <a href="single.html" class="post-thumbnail">
               <img src="assets/img/320x200p/320x200-p9.png" class="img-fluid">
             </a>
@@ -273,7 +284,7 @@
           </div>
         </li>
         <li class="media entry">
-          <div class="img-box d-flex mr-3">
+          <div class="thumbnail-medium d-flex mr-3">
             <a href="single.html" class="post-thumbnail">
               <img src="assets/img/320x200p/320x200-p10.png" class="img-fluid">
             </a>
@@ -297,7 +308,7 @@
           </div>
         </li>
         <li class="media entry">
-          <div class="img-box d-flex mr-3">
+          <div class="thumbnail-medium d-flex mr-3">
             <a href="single.html" class="post-thumbnail">
               <img src="assets/img/320x200p/320x200-p11.png" class="img-fluid">
             </a>

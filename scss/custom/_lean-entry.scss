@@ -3,16 +3,19 @@
   border: 1px solid #eee;
   border-radius: 6px;
   margin-bottom: 1rem;
+}
+
+.entry.media {
   transition: all 0.3s ease;
   &:hover{
     background-color: #faf7fa;
   }
 }
 
-
 ul.posts-list li,
-.posts-card .card-title,
-.posts-card .card-text,
+[class*="posts-card"] .card-title,
+.media-heading,
+//.posts-card .card-text,
 .entry-title {
     a {
     color: $body-color;
@@ -27,8 +30,8 @@ ul.posts-list li,
 }
 
 .entry-meta {
-    color: #999;
-    a {
+  color: #999;
+  a {
     color: #999;
     text-decoration: $link-decoration;
     transition: all 0.3s ease;
@@ -48,4 +51,17 @@ ul.posts-list li,
   background: #efefef;
   content: "";
   margin-top: 1rem;
+}
+
+.hot-post,
+.cat-post {
+  margin-bottom: 10px;
+}
+
+
+.media-heading {
+  font-weight: 400;
+  a {
+    color: #444;
+  }
 }
