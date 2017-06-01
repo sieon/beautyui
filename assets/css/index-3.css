@@ -1,0 +1,20 @@
+.carousel .jumbotron {
+  background-color: inherit;
+  min-height: 715px;
+  padding-top: 200px; }
+
+.carousel-item:first-child {
+  background-image: url("../img/bg_header0.jpg"); }
+
+.carousel-item:nth-child(2) {
+  background-image: url("../img/bg_header1.jpg"); }
+
+.carousel-item:nth-child(3) {
+  background-image: url("../img/bg_header2.jpg"); }
+
+.carousel-item {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; }
+
+/*# sourceMappingURL=index-3.css.map */
