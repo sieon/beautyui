@@ -9,9 +9,10 @@
   <link rel="stylesheet" href="assets/css/bootstrap.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/index-3.css">
 </head>
 <body class="home front-page">
-  <nav class="navbar navbar-toggleable-md navbar-light">
+  <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -45,324 +46,207 @@
           <input class="form-control mr-sm-2" type="text" placeholder="输入关键字">
           <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">搜索</button>
         </form>
-        <ul class="navbar-nav ml-5 pl-0">
-          <li class="nav-item mr-3"><a class="nav-link" href="login.html">登陆</a></li>
-          <li class="nav-item"><a class="nav-link" href="register.html">注册</a></li>
-        </ul>
       </div>
     </div>
   </nav>
 
-    <!-- 上面是复用的头部 -->
+  <!-- 上面是复用的头部 -->
 
+  <!--./ Carousel start  -->
+  <div id="myCarousel" class="carousel slide mb-3" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="jumbotron">
+            <h2 class="display-4 strong">高品质呼叫中心的奥秘</h1>
+            <p>让企业与客户的沟通从此变得“专业，可信赖”！</p>
+            <a href="/why-us" class="btn btn-warning">了解更多</a>
+          </div>
+        </div>
+      </div>
 
-<div id="myCarousel" class="carousel slide " data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner" role="listbox">
-    <div class="carousel-item active">
-      <a href="#">
-        <img src="assets/img/banner/banner1.jpg" alt="First slide" class="img-fluid">
-      </a>
-    </div>
-    <div class="carousel-item">
-      <a href="#">
-        <img src="assets/img/banner/banner2.jpg" alt="Second slide" class="img-fluid">
-      </a>
-    </div>
-    <div class="carousel-item">
-      <a href="#">
-        <img src="assets/img/banner/banner3.jpg" alt="Third slide" class="img-fluid">
-      </a>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">上一个</span>
-  </a>
-  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">下一个</span>
-  </a>
-</div>
-
-
-<div class="container mt-3" id="site-content">
-  <div class="row">
-
-    <div class="col-lg-4 mb-3">
-      <div class="card">
-        <div class="card-header">编辑推荐</div>
-        <div class="card-block">
-          <ul class="list-unstyled posts-list">
-            <li><a href="single.html" rel="bookmark">日本公司缺远虑，中国公司缺近忧缺近忧缺近忧缺近忧缺近忧缺近忧</a></li>
-            <li><a href="single.html" rel="bookmark">天润融通入选最具活力云计算服务商</a></li>
-            <li><a href="single.html" rel="bookmark">浅谈博客该如何定位该如何定位该如何定位该如何定位</a></li>
-            <li><a href="single.html" rel="bookmark">天润融通入选最具活力云计算服务商</a></li>
-            <li><a href="single.html" rel="bookmark">这是一篇置顶文章</a></li>
-          </ul>
+      <div class="carousel-item">
+        <div class="container">
+          <div class="jumbotron">
+            <h2 class="display-4 strong">呼叫中心集成化运营</h1>
+            <p>云平台 软件开发 资源整合 运营与服务</p>
+            <a href="/why-us" class="btn btn-warning">了解更多</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container">
+          <div class="jumbotron">
+            <h2 class="display-4 strong">大中型企业的客户沟通之道</h1>
+            <p>高品质的产品和服务来自高品质客户的苛刻要求</p>
+            <a href="/why-us" class="btn btn-warning">了解更多</a>
+          </div>
         </div>
       </div>
     </div>
-    <div class="col-lg-4 mb-3">
-      <div class="card">
-        <div class="card-header">编辑推荐</div>
-        <div class="card-block">
-          <ul class="list-unstyled posts-list">
-            <li><a href="single.html" rel="bookmark">日本公司缺远虑，中国公司缺近忧缺近忧缺近忧缺近忧缺近忧缺近忧</a></li>
-            <li><a href="single.html" rel="bookmark">天润融通入选最具活力云计算服务商</a></li>
-            <li><a href="single.html" rel="bookmark">浅谈博客该如何定位该如何定位该如何定位该如何定位</a></li>
-            <li><a href="single.html" rel="bookmark">天润融通入选最具活力云计算服务商</a></li>
-            <li><a href="single.html" rel="bookmark">这是一篇置顶文章</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-4 mb-3">
-      <div class="card">
-        <div class="card-header">编辑推荐</div>
-        <div class="card-block">
-          <ul class="list-unstyled posts-list">
-            <li><a href="single.html" rel="bookmark">日本公司缺远虑，中国公司缺近忧缺近忧缺近忧缺近忧缺近忧缺近忧</a></li>
-            <li><a href="single.html" rel="bookmark">天润融通入选最具活力云计算服务商</a></li>
-            <li><a href="single.html" rel="bookmark">浅谈博客该如何定位该如何定位该如何定位该如何定位</a></li>
-            <li><a href="single.html" rel="bookmark">天润融通入选最具活力云计算服务商</a></li>
-            <li><a href="single.html" rel="bookmark">这是一篇置顶文章</a></li>
-          </ul>
-        </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">上一个</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">下一个</span>
+    </a>
+
+
+  </div><!--./ carousel end -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3 text-center">
+        <h2 class="display-4">CTI-Cloud</h2>
+        <p>大型呼叫中心·集成化运营</p>
+        <p>提供呼叫中心核心软交换和CTI的开发、业务系统整合、通信资源整合、云平台运营等一揽子服务，让客户可以快速、安心、聚焦在自己的核心业务。</p>
+        <a href="single.html" class="btn btn-warning">了解更多</a>
       </div>
     </div>
   </div>
-
-
-  <div class="card-deck mb-3">
-    <div class="card posts-card">
-      <a href="single.html" title="日本公司缺远虑，中国公司缺近忧">
-        <img src="assets/img/320x200/320x200-j1.jpg" class="card-img-top img-fluid" alt="插画 ｜晁春彬">
-      </a>
-      <div class="card-block">
-        <p class="card-title">
-          <a href="single.html" rel="bookmark" title="日本公司缺远虑，中国公司缺近忧">日本公司缺远虑</a>
-        </p>
-        <p class="card-text entry-meta">
-          <small>
-            <span class="post-author">mxy · </span>
-            <span class="mr-3">2017年3月26日</span>
-            <span><a href="#">财经观察</a></span>
-          </small>
-        </p>
+  <div id="cti-cloud-content">
+    <div class="container">
+			<div class="row">
+        <div class="col-lg-6 col-md-6 text-center">
+          <span>平台能力</span>
+          <div class="row">
+          	<div class="col-lg-4 col-md-4">
+          		<a href="/products/cti-cloud">
+          			<div>
+          				<h5>大容量系统</h5>
+          				<span>20000</span>
+          				<p>座席并发/单平台</p>
+          			</div>
+          		</a>
+          	</div>
+          	<div class="col-lg-4 col-md-4">
+          		<a href="/products/cti-cloud">
+          			<div class="border-white">
+          				<h5>高可用服务</h5>
+          				<span>99.78%</span>
+          				<p>整体可靠性</p>
+          				<p>系统+机房+网络+电路</p>
+          			</div>
+          		</a>
+          	</div>
+          	<div class="col-lg-4 col-md-4">
+          		<a href="/products/cti-cloud">
+          			<div class="border-white">
+          				<h5>高性能平台</h5>
+          				<span>300-500</span>
+          				<p>整体应用级别CAPS</p>
+          			</div>
+          		</a>
+          	</div>
+          </div>
+          <div class="row">
+          	<div class="col-lg-4 col-md-4">
+          		<a href="/products/cti-cloud">
+          			<div>
+          				<h5>业务弹性伸缩</h5>
+          				<p>按需调整座席</p>
+          				<p>按需调度通信资源</p>
+          			</div>
+          		</a>
+          	</div>
+          	<div class="col-lg-4 col-md-4">
+          		<a href="/products/cti-cloud">
+          			<div class="border-white">
+          				<h5>高度可定制</h5>
+          				<p>通过API开放能力</p>
+          				<p>支持代码级的高度可定制</p>
+          			</div>
+          		</a>
+          	</div>
+          	<div class="col-lg-4 col-md-4">
+          		<a href="/products/cti-cloud">
+          			<div class="border-white">
+          				<h5>部署快速灵活</h5>
+          				<p>快速上线、集中职场</p>
+          				<p>分布式职场、移动座席</p>
+          			</div>
+          		</a>
+          	</div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 text-center">
+        <span>场景化应用</span>
+        <div class="row">
+        	<div class="col-lg-6 col-md-6">
+        		<a href="/products/cti-cloud">
+        			<div>
+        				<div class="row">
+        					<div class="col-lg-4 col-md-4">
+        						<i class="fa fa-user"></i>
+        					</div>
+        					<div class="col-lg-7 col-md-7">
+        						<h5>无限录音存储</h5>
+        						<p>人工智能的基础</p>
+        					</div>
+        				</div>
+        			</div>
+        		</a>
+        	</div>
+        	<div class="col-lg-6 col-md-6">
+        		<a href="/products/cti-cloud">
+        			<div>
+        				<div class="row">
+        					<div class="col-lg-4 col-md-4">
+        						<i class="fa fa-desktop"></i>
+        					</div>
+        					<div class="col-lg-7 col-md-7">
+        						<h5>智能质检（AI）</h5>
+        						<p>自动质检、全量质检</p>
+        						<p>通话占比、质量分析</p>
+        					</div>
+        				</div>
+        			</div>
+        		</a>
+        	</div>
+        </div>
+        <div class="row">
+        	<div class="col-lg-6 col-md-6">
+        		<a href="/products/cti-cloud">
+        		<div>
+        			<div class="row">
+        				<div class="col-lg-4 col-md-4">
+        					<img src="/images/apply_2.png">
+        				</div>
+        				<div class="col-lg-7 col-md-7">
+        					<h5>预测式外呼</h5>
+        					<p>独特的预测式算法，自动外呼，提高座席工时利用率</p>
+        				</div>
+        			</div>
+        		</div>
+        	</a></div><a href="/products/cti-cloud">
+        	</a><div class="col-lg-6 col-md-6"><a href="/products/cti-cloud">
+        		</a><a href="/products/cti-cloud">
+        		<div>
+        			<div class="row">
+        				<div class="col-lg-4 col-md-4">
+        					<img src="/images/apply_3.png">
+        				</div>
+        				<div class="col-lg-7 col-md-7" style="text-align: left;padding: 0px;">
+        					<h5>流式实时计算</h5>
+        					<p>自定义监控、实时统计、</p>
+        					<p>实时报表</p>
+        				</div>
+        			</div>
+        		</div>
+        		</a>
+        	</div>
+        </div>
+        </div>
       </div>
-
-
-    </div><!--./card-->
-
-    <div class="card posts-card border-0">
-      <a href="single.html" title="海边儿海边儿啊，真漂亮！！">
-        <img src="assets/img/320x200/320x200-j2.jpg" class="card-img-top img-fluid">
-      </a>
-      <p class="card-title mt-2">
-        <a href="single.html" rel="bookmark" title="日本公司缺远虑，中国公司缺近忧">日本公司缺远虑</a>
-      </p>
-      <div class="card-footer entry-meta border-0">
-        <small class="text-weakest">
-          <span class="post-author">mxy · </span>
-          <span class="mr-3">2017年3月26日</span>
-          <span><a href="#">财经观察</a></span>
-        </small>
-      </div>
-    </div><!--./card-->
-    <!--./ card-img-overlay-bottom-->
-    <div class="card posts-card border-0">
-      <a href="single.html" title="一望无际的大海">
-        <img src="assets/img/320x200/320x200-j16.jpg" class="card-img img-fluid">
-      </a>
-
-      <p class="card-title mt-2">
-        <a href="single.html" rel="bookmark" title="日本公司缺远虑，中国公司缺近忧">日本公司缺远虑</a>
-      </p>
-      <div class="card-footer entry-meta border-0">
-        <small class="text-weakest">
-          <span class="post-author">mxy · </span>
-          <span class="mr-3">2017年3月26日</span>
-          <span><a href="#">财经观察</a></span>
-        </small>
-      </div>
-
     </div>
-
-    <div class="card posts-card border-0">
-      <a href="single.html" title="日本公司缺远虑，中国公司缺近忧">
-        <img src="assets/img/320x200/320x200-j3.jpg" class="card-img-top img-fluid" alt="插画 ｜晁春彬">
-      </a>
-      <p class="card-title mt-2">
-        <a href="single.html" rel="bookmark" title="日本公司缺远虑，中国公司缺近忧">日本公司缺远虑</a>
-      </p>
-      <div class="card-footer entry-meta border-0">
-        <small class="text-weakest">
-          <span class="post-author">mxy · </span>
-          <span class="mr-3">2017年3月26日</span>
-          <span><a href="#">财经观察</a></span>
-        </small>
-      </div>
-    </div><!--./card-->
-  </div>
-
-  <div class="card-columns">
-    <div class="card posts-card">
-      <a href="single.html" title="海边儿海边儿啊，真漂亮！！">
-        <img src="assets/img/320x200/320x200-j15.jpg" class="card-img-top img-fluid">
-      </a>
-
-      <div class="card-block">
-        <p class="posts-categories"><span class="badge badge-warning">财经天下</span>&nbsp;</p>
-        <h3 class="card-title">
-          <a href="single.html" rel="bookmark" title="海边儿海边儿啊，真漂亮！！">海边儿海边儿啊，真漂亮！！</a>
-        </h3>
-        <div class="entry-excerpt">
-          <p class="card-text text-muted">这是一段描述的测试，如何测试title的显示呢？那么我们必须使用默认的呵呵。</p>
-        </div>
-      </div>
-      <div class="card-footer entry-meta">
-        <small class="text-weakest">
-          <span class="post-author">mxy · </span>
-          <span class="mr-3">2017年3月26日</span>
-          <span><a href="#">财经观察</a></span>
-        </small>
-      </div>
-    </div><!--./card-->
-      <div class="card posts-card border-0">
-        <a href="single.html" title="日本公司缺远虑，中国公司缺近忧">
-          <img src="assets/img/320x200/320x200-j3.jpg" class="card-img-top img-fluid" alt="插画 ｜晁春彬">
-        </a>
-        <div class="card-block pd-0 mt-2">
-          <p class="card-title">
-            <a href="single.html" rel="bookmark" title="日本公司缺远虑，中国公司缺近忧">日本公司缺远虑，中国公司缺近忧</a>
-          </p>
-        </div>
-      </div><!--./card-->
-      <div class="card posts-card border-0">
-        <a href="single.html" title="日本公司缺远虑，中国公司缺近忧">
-          <img src="assets/img/320x200/320x200-j4.jpg" class="card-img-top img-fluid" alt="插画 ｜晁春彬">
-        </a>
-        <div class="card-block pd-0 mt-2">
-          <p class="card-title">
-            <a href="single.html" rel="bookmark" title="日本公司缺远虑，中国公司缺近忧">日本公司缺远虑，中国公司缺近忧</a>
-          </p>
-        </div>
-      </div><!--./card-->
-      <div class="card posts-card border-0">
-        <a href="single.html" title="日本公司缺远虑，中国公司缺近忧">
-          <img src="assets/img/320x200/320x200-j4.jpg" class="card-img-top img-fluid" alt="插画 ｜晁春彬">
-        </a>
-        <div class="card-block pd-0 mt-2">
-          <p class="card-title">
-            <a href="single.html" rel="bookmark" title="日本公司缺远虑，中国公司缺近忧">日本公司缺远虑，中国公司缺近忧</a>
-          </p>
-        </div>
-      </div><!--./card-->
-      <div class="card posts-card border-0">
-        <a href="single.html" title="日本公司缺远虑，中国公司缺近忧">
-          <img src="assets/img/320x200/320x200-j5.jpg" class="card-img-top img-fluid" alt="插画 ｜晁春彬">
-        </a>
-        <div class="card-block pd-0 mt-2">
-          <p class="card-title">
-            <a href="single.html" rel="bookmark" title="日本公司缺远虑，中国公司缺近忧">日本公司缺远虑，中国公司缺近忧</a>
-          </p>
-        </div>
-      </div><!--./card-->
-      <div class="card posts-card border-0">
-        <a href="single.html" title="日本公司缺远虑，中国公司缺近忧">
-          <img src="assets/img/320x200/320x200-j6.jpg" class="card-img-top img-fluid" alt="插画 ｜晁春彬">
-        </a>
-        <p class="card-title mt-2">
-          <a href="single.html" rel="bookmark" title="日本公司缺远虑，中国公司缺近忧">日本公司缺远虑，中国公司缺近忧</a>
-        </p>
-      </div><!--./card-->
-      <div class="card posts-card border-0">
-        <a href="single.html" title="日本公司缺远虑，中国公司缺近忧">
-          <img src="assets/img/320x200/320x200-j7.jpg" class="card-img-top img-fluid" alt="插画 ｜晁春彬">
-        </a>
-        <p class="card-title mt-2">
-          <a href="single.html" rel="bookmark" title="日本公司缺远虑，中国公司缺近忧">日本公司缺远虑，中国公司缺近忧</a>
-        </p>
-      </div><!--./card-->
-      <div class="card posts-card border-0">
-        <a href="single.html" title="日本公司缺远虑，中国公司缺近忧">
-          <img src="assets/img/320x200/320x200-j8.jpg" class="card-img-top img-fluid" alt="插画 ｜晁春彬">
-        </a>
-        <p class="card-title mt-2">
-          <a href="single.html" rel="bookmark" title="日本公司缺远虑，中国公司缺近忧">日本公司缺远虑，中国公司缺近忧</a>
-        </p>
-      </div><!--./card-->
-      <div class="card posts-card border-0">
-        <a href="single.html" title="日本公司缺远虑，中国公司缺近忧">
-          <img src="assets/img/320x200/320x200-j9.jpg" class="card-img-top img-fluid" alt="插画 ｜晁春彬">
-        </a>
-        <p class="card-title mt-2">
-          <a href="single.html" rel="bookmark" title="日本公司缺远虑，中国公司缺近忧">日本公司缺远虑，中国公司缺近忧日本公司缺远虑，中国公司缺近忧日本公司缺远虑，中国公司缺近忧日本公司缺远虑，中国公司缺近忧日本公司缺远虑，中国公司缺近忧</a>
-        </p>
-      </div><!--./card-->
-      <div class="card posts-card border-0">
-        <a href="single.html" title="日本公司缺远虑，中国公司缺近忧">
-          <img src="assets/img/320x200/320x200-j10.jpg" class="card-img-top img-fluid" alt="插画 ｜晁春彬">
-        </a>
-        <p class="card-title mt-2">
-          <a href="single.html" rel="bookmark" title="日本公司缺远虑，中国公司缺近忧">日本公司缺远虑，中国公司缺近忧日本公司缺远虑，中国公司缺近忧日本公司缺远虑，中国公司缺近忧日本公司缺远虑，中国公司缺近忧日本公司缺远虑，中国公司缺近忧</a>
-        </p>
-      </div><!--./card-->
-      <div class="card posts-card border-0">
-        <a href="single.html" title="日本公司缺远虑，中国公司缺近忧">
-          <img src="assets/img/320x200/320x200-j11.jpg" class="card-img-top img-fluid" alt="插画 ｜晁春彬">
-        </a>
-        <p class="card-title mt-2">
-          <a href="single.html" rel="bookmark" title="日本公司缺远虑，中国公司缺近忧">日本公司缺远虑，中国公司缺近忧日本公司缺远虑，中国公司缺近忧日本公司缺远虑，中国公司缺近忧日本公司缺远虑，中国公司缺近忧日本公司缺远虑，中国公司缺近忧</a>
-        </p>
-      </div><!--./card-->
-      <div class="card posts-card border-0">
-        <a href="single.html" title="日本公司缺远虑，中国公司缺近忧">
-          <img src="assets/img/320x200/320x200-j12.jpg" class="card-img-top img-fluid" alt="插画 ｜晁春彬">
-        </a>
-        <p class="card-title mt-2">
-          <a href="single.html" rel="bookmark" title="日本公司缺远虑，中国公司缺近忧">日本公司缺远虑，中国公司缺近忧日本公司缺远虑，中国公司缺近忧日本公司缺远虑，中国公司缺近忧日本公司缺远虑，中国公司缺近忧日本公司缺远虑，中国公司缺近忧</a>
-        </p>
-      </div><!--./card-->
-      <div class="card posts-card border-0">
-        <a href="single.html" title="日本公司缺远虑，中国公司缺近忧">
-          <img src="assets/img/320x200/320x200-j13.jpg" class="card-img-top img-fluid" alt="插画 ｜晁春彬">
-        </a>
-        <p class="card-title mt-2">
-          <a href="single.html" rel="bookmark" title="日本公司缺远虑，中国公司缺近忧">日本公司缺远虑，中国公司缺近忧日本公司缺远虑，中国公司缺近忧日本公司缺远虑，中国公司缺近忧日本公司缺远虑，中国公司缺近忧日本公司缺远虑，中国公司缺近忧</a>
-        </p>
-      </div><!--./card-->
-      <div class="card posts-card border-0">
-        <a href="single.html" title="日本公司缺远虑，中国公司缺近忧">
-          <img src="assets/img/320x200/320x200-j14.jpg" class="card-img-top img-fluid" alt="插画 ｜晁春彬">
-        </a>
-        <p class="card-title mt-2">
-          <a href="single.html" rel="bookmark" title="日本公司缺远虑，中国公司缺近忧">日本公司缺远虑，中国公司缺近忧日本公司缺远虑，中国公司缺近忧日本公司缺远虑，中国公司缺近忧日本公司缺远虑，中国公司缺近忧日本公司缺远虑，中国公司缺近忧</a>
-        </p>
-      </div><!--./card-->
-  </div>
-
-  <!--./ pagination start -->
-  <div class="pagination mt-2">
-    <nav aria-label="Page navigation">
-      <ul class="pagination ">
-        <li class="active page-item"><a href="#" class="page-link">1</a></li>
-        <li class="page-item"><a href="#" class="page-link">2</a></li>
-        <li class="page-item"><a href="#" class="page-link">3</a></li>
-        <li class="page-item"><span class="page-link"><a href="#"><span aria-hidden="true">下一页</span><span class="sr-only">下一页</span></a></span></li>
-        <li class="page-item"></li>
-        <li class="page-item"><a class="page-link" href="#" aria-label="Next"><span aria-hidden="true">最后一页</span><span class="sr-only">6</span></a></li>
-      </ul>
-    </nav>
-  </div> <!--./ pagination end -->
-
-
-</div>
+	</div>
 
 
   <!-- 复用的底部 -->
