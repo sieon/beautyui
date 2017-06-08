@@ -30,17 +30,7 @@ ul.posts-list li,
 }
 
 .entry-meta {
-  color: #999;
-  a {
-    color: #999;
-    text-decoration: $link-decoration;
-    transition: all 0.3s ease;
 
-    @include hover-focus {
-      color: $link-color;
-      text-decoration: $link-decoration;
-    }
-  }
 }
 
 .entry-header::after {
@@ -63,5 +53,18 @@ ul.posts-list li,
   font-weight: 400;
   a {
     color: #444;
+  }
+}
+
+.posts-card {
+  .card {
+    border: 0;
+  }
+  .card-text {
+    margin-top: 10px;
+    font-size: 85%;
+    a {
+      color: #666;
+    }
   }
 }

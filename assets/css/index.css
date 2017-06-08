@@ -1,0 +1,41 @@
+.body {
+  background-color: #f7f7f7; }
+
+.graphics {
+  min-height: 50rem;
+  /* Can be removed; just added for demo purposes */
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #f7f7f7; }
+  .graphics .card {
+    float: left;
+    width: 25%;
+    padding: 15px 10px;
+    border: 0;
+    margin-bottom: 40px; }
+    .graphics .card .posts-categories {
+      margin-top: 5px;
+      margin-bottom: 0; }
+    .graphics .card .card-title {
+      margin-top: 10px;
+      font-size: 100%; }
+      .graphics .card .card-title a {
+        color: #333; }
+    .graphics .card .excerpt {
+      color: #666;
+      font-size: 100%; }
+    .graphics .card .card-text:last-child {
+      font-size: 75%;
+      color: #999; }
+      .graphics .card .card-text:last-child a {
+        color: #999;
+        text-decoration: none;
+        transition: all 0.3s ease; }
+        .graphics .card .card-text:last-child a:focus, .graphics .card .card-text:last-child a:hover {
+          color: #0275d8;
+          text-decoration: none; }
+
+.feature-list .media {
+  width: 25%; }
+
+/*# sourceMappingURL=index.css.map */

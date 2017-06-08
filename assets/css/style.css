@@ -274,16 +274,6 @@ ul.posts-list li a,
     color: #0275d8;
     text-decoration: none; }
 
-.entry-meta {
-  color: #999; }
-  .entry-meta a {
-    color: #999;
-    text-decoration: none;
-    transition: all 0.3s ease; }
-    .entry-meta a:focus, .entry-meta a:hover {
-      color: #0275d8;
-      text-decoration: none; }
-
 .entry-header::after {
   display: block;
   width: 160px;
@@ -302,6 +292,14 @@ ul.posts-list li a,
   .media-heading a {
     color: #444; }
 
+.posts-card .card {
+  border: 0; }
+.posts-card .card-text {
+  margin-top: 10px;
+  font-size: 85%; }
+  .posts-card .card-text a {
+    color: #666; }
+
 .box-img img {
   width: 100%;
   height: auto; }
@@ -309,99 +307,99 @@ ul.posts-list li a,
 .card-img-top {
   width: 100%; }
 
-.thumbnail-1,
-.thumbnail-2,
-.thumbnail-3,
-.thumbnail-4,
-.thumbnail-5,
-.thumbnail-5,
-.thumbnail-6,
-.thumbnail-7,
-.thumbnail-8,
-.thumbnail-9,
-.thumbnail-10,
-.thumbnail-11,
-.thumbnail-12 {
+.img-1,
+.img-2,
+.img-3,
+.img-4,
+.img-5,
+.img-5,
+.img-6,
+.img-7,
+.img-8,
+.img-9,
+.img-10,
+.img-11,
+.img-12 {
   overflow: hidden; }
 
-.thumbnail-1 {
+.img-1 {
   width: 80px; }
 
-.thumbnail-2 {
+.img-2 {
   width: 180px; }
 
-.thumbnail-3 {
+.img-3 {
   width: 280px; }
 
-.thumbnail-4 {
+.img-4 {
   width: 380px; }
 
-.thumbnail-5 {
+.img-5 {
   width: 480px; }
 
-.thumbnail-6 {
+.img-6 {
   width: 580px; }
 
-.thumbnail-7 {
+.img-7 {
   width: 680px; }
 
-.thumbnail-8 {
+.img-8 {
   width: 780px; }
 
-.thumbnail-9 {
+.img-9 {
   width: 880px; }
 
-.thumbnail-10 {
+.img-10 {
   width: 980px; }
 
-.thumbnail-11 {
+.img-11 {
   width: 1080px; }
 
-.thumbnail-12 {
+.img-12 {
   width: 1180px; }
 
-.thumbnail-1 img,
-.thumbnail-2 img,
-.thumbnail-3 img,
-.thumbnail-4 img,
-.thumbnail-5 img,
-.thumbnail-5 img,
-.thumbnail-6 img,
-.thumbnail-7 img,
-.thumbnail-8 img,
-.thumbnail-9 img,
-.thumbnail-10 img,
-.thumbnail-11 img,
-.thumbnail-12 img {
+.img-1 img,
+.img-2 img,
+.img-3 img,
+.img-4 img,
+.img-5 img,
+.img-5 img,
+.img-6 img,
+.img-7 img,
+.img-8 img,
+.img-9 img,
+.img-10 img,
+.img-11 img,
+.img-12 img {
   transition: all .5s ease; }
 
-.thumbnail-medium:hover img,
-.thumbnail-large:hover img,
-.thumbnail-huge:hover img,
-.thumbnail-1:hover img,
-.thumbnail-2:hover img,
-.thumbnail-3:hover img,
-.thumbnail-4:hover img,
-.thumbnail-5:hover img,
-.thumbnail-5:hover img,
-.thumbnail-6:hover img,
-.thumbnail-7:hover img,
-.thumbnail-8:hover img,
-.thumbnail-9:hover img,
-.thumbnail-10:hover img,
-.thumbnail-11:hover img,
-.thumbnail-12:hover img {
+.img-medium:hover img,
+.img-large:hover img,
+.img-huge:hover img,
+.img-1:hover img,
+.img-2:hover img,
+.img-3:hover img,
+.img-4:hover img,
+.img-5:hover img,
+.img-5:hover img,
+.img-6:hover img,
+.img-7:hover img,
+.img-8:hover img,
+.img-9:hover img,
+.img-10:hover img,
+.img-11:hover img,
+.img-12:hover img {
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   transform: scale(1.1); }
 
-.thumbnail-1,
-.thumbnail-2 {
+.img-1,
+.img-2 {
   height: auto;
   position: relative; }
 
-.thumbnail-1 img,
-.thumbnail-1 img {
+.img-1 img,
+.img-1 img {
   width: 100%;
   height: auto; }
 

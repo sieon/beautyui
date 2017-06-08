@@ -1,0 +1,54 @@
+@import "variables";
+@import "bootstrap/mixins";
+.body {
+  background-color: #f7f7f7;
+}
+
+.graphics {
+  min-height: 50rem; /* Can be removed; just added for demo purposes */
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #f7f7f7;
+  .card {
+    float: left;
+    width: 25%;
+    padding: 15px 10px;
+    border: 0;
+    margin-bottom: 40px;
+    .posts-categories {
+      margin-top: 5px;
+      margin-bottom: 0; //覆盖 p 标签的 margin-bottom
+    }
+    .card-title {
+      margin-top: 10px;
+      font-size: 100%;
+      a{
+        color: #333;
+      }
+    }
+    .excerpt {
+      color: #666;
+      font-size: 100%;
+    }
+    .card-text:last-child {
+      font-size: 75%;
+      color: #999;
+      a {
+        color: #999;
+        text-decoration: $link-decoration;
+        transition: all 0.3s ease;
+
+        @include hover-focus {
+          color: $link-color;
+          text-decoration: $link-decoration;
+        }
+      }
+    }
+  }
+}
+
+.feature-list {
+  .media {
+    width: 25%;
+  }
+}
