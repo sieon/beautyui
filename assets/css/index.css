@@ -35,7 +35,18 @@
           color: #0275d8;
           text-decoration: none; }
 
-.feature-list .media {
-  width: 25%; }
+.feature-img {
+  font-size: 4rem;
+  line-height: 1.1; }
+
+.product-list {
+  margin-bottom: 40px; }
+  .product-list .card {
+    float: left;
+    width: 33.333333%;
+    padding: 15px 30px;
+    border: 0; }
+  .product-list .card-deck {
+    margin-bottom: 20px; }
 
 /*# sourceMappingURL=index.css.map */

@@ -274,6 +274,16 @@ ul.posts-list li a,
     color: #0275d8;
     text-decoration: none; }
 
+.entry-meta {
+  color: #999; }
+  .entry-meta a {
+    color: #999;
+    text-decoration: none;
+    transition: all 0.3s ease; }
+    .entry-meta a:focus, .entry-meta a:hover {
+      color: #0275d8;
+      text-decoration: none; }
+
 .entry-header::after {
   display: block;
   width: 160px;
