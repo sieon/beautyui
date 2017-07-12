@@ -1,0 +1,17 @@
+@import "custom";
+@import "variables";
+// #site-content {
+//   background: #f5f5f5;
+//   padding-top: 10px;
+//   padding-bottom: 10px;
+// }
+// .row > div[class*='col-'] {
+//   display: flex;
+//   margin-bottom: 20px;
+//   //flex:1 0 auto;
+// }
+
+.post:hover {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 0, 0, 0.08);
+}

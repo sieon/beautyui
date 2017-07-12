@@ -3,15 +3,57 @@
 }
 
 .card {
-  //box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
-}
-
-.card {
+  width: 100%;
+  margin-bottom: 20px;
   .card-block {
     ul {
       margin-bottom: 0; //覆盖默认的1re
     }
   }
+}
+
+.card-title {
+  color: #333;
+  a {
+    color: #333;
+    text-decoration: $link-decoration;
+    transition: all 0.3s ease;
+
+    @include hover-focus {
+      color: $link-color;
+      text-decoration: $link-decoration;
+    }
+  }
+}
+
+.card-footer {
+  padding: 0 $card-spacer-x $card-spacer-y $card-spacer-x;
+  border-top: 0;
+}
+
+.card-meta,
+.card-footer {
+  font-size: 85%;
+  color: #999;
+  a {
+    color: #999;
+    text-decoration: $link-decoration;
+    transition: all 0.3s ease;
+
+    @include hover-focus {
+      color: $link-color;
+      text-decoration: $link-decoration;
+    }
+  }
+}
+
+.card-img-overlay {
+  // position: absolute;
+  // bottom: 0;
+  // left: 0;
+  // width: 100%;
+  // padding: $card-img-overlay-padding;
+  background: rgba(5, 5, 5, 0.4);
 }
 
 .card-img-overlay-bottom {
@@ -41,6 +83,20 @@
   .card-blockquote {
     color: #fff;
   }
+
+  .card-title {
+    a {
+      color: #fff;
+      text-decoration: $link-decoration;
+      transition: all 0.3s ease;
+
+      @include hover-focus {
+        color: $link-color;
+        text-decoration: $link-decoration;
+      }
+    }
+  }
+
   .card-link,
   .card-text,
   .card-subtitle,

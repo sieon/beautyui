@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAaA,WAAY;EACV,UAAU,EAAE,+BAA+B;EAC3C,YAAY,EAAE,mBAAmB",
+"sources": ["../../scss/category6.scss"],
+"names": [],
+"file": "category6.css"
+}

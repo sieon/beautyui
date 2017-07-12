@@ -2954,7 +2954,7 @@ tbody.collapse.show {
   min-width: 0;
   word-wrap: break-word;
   background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid rgba(0, 0, 0, 0.05);
   border-radius: 0.25rem; }
 
 .card-block {
@@ -2986,15 +2986,15 @@ tbody.collapse.show {
 .card-header {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
-  background-color: #f7f7f9;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05); }
   .card-header:first-child {
     border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0; }
 
 .card-footer {
   padding: 0.75rem 1.25rem;
-  background-color: #f7f7f9;
-  border-top: 1px solid rgba(0, 0, 0, 0.125); }
+  background-color: #fff;
+  border-top: 1px solid rgba(0, 0, 0, 0.05); }
   .card-footer:last-child {
     border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px); }
 
