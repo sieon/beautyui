@@ -1,10 +1,12 @@
 .card-header {
-  background-color: #fff;
+  // background-color: #fff;
 }
 
 .card {
   width: 100%;
-  margin-bottom: 20px;
+  border: 1px solid #e7eaf1;
+  box-shadow: 0 1px 3px rgba(0, 37, 55, .05);
+  margin-bottom: 1rem;
   .card-block {
     ul {
       margin-bottom: 0; //覆盖默认的1re
