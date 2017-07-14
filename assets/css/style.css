@@ -135,6 +135,13 @@
     color: rgba(255, 255, 255, 0.65); }
   .card-inverse .card-link:focus, .card-inverse .card-link:hover {
     color: #fff; }
+  .card-inverse .card-title a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease; }
+    .card-inverse .card-title a:focus, .card-inverse .card-title a:hover {
+      color: #0275d8;
+      text-decoration: none; }
 
 /**
  * 11.4 - Comments

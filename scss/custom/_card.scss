@@ -67,6 +67,18 @@
 
 .card-inverse {
   @include card-inverse;
+  .card-title {
+    a {
+      color: #fff;
+      text-decoration: $link-decoration;
+      transition: all 0.3s ease;
+
+      @include hover-focus {
+        color: $link-color;
+        text-decoration: $link-decoration;
+      }
+    }
+  }
 }
 
 @mixin card-inverse {
@@ -82,19 +94,6 @@
   .card-title,
   .card-blockquote {
     color: #fff;
-  }
-
-  .card-title {
-    a {
-      color: #fff;
-      text-decoration: $link-decoration;
-      transition: all 0.3s ease;
-
-      @include hover-focus {
-        color: $link-color;
-        text-decoration: $link-decoration;
-      }
-    }
   }
 
   .card-link,
