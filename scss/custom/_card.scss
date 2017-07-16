@@ -33,6 +33,14 @@
   border-top: 0;
 }
 
+.card-excerpt {
+  margin-top: 1rem;
+}
+
+.card-excerpt:last-child {
+  margin-bottom: 0;
+}
+
 .card-meta,
 .card-footer {
   font-size: 85%;
@@ -60,11 +68,11 @@
 
 .card-img-overlay-bottom {
   position: absolute;
-  bottom: 0;
-  left: 0;
   width: 100%;
+  bottom: 0;
   padding: $card-img-overlay-padding;
-  background: rgba(5, 5, 5, 0.4);
+  // background: rgba(4, 4, 4, 0.2);
+  background-image: linear-gradient(rgba(4,4,4,0.3),rgba(4,4,4,0.3));
 }
 
 .card-inverse {

@@ -1,3 +1,13 @@
+.single-header {
+  @include border-top-radius($card-inner-border-radius);
+  border-bottom: $card-border-width solid $card-border-color;
+}
+
+.single-header-body {
+  //background-color: rgba(10, 10, 9, 0.26);
+  padding: 1.25rem;
+}
+
 ul.posts-list li,
 [class*="posts-card"] .card-title,
 .media-heading,
