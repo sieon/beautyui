@@ -12,44 +12,45 @@
   <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="container">
-      <a class="navbar-brand" href="index.html">轻主题</a>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item dropdown active">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">首页 <span class="sr-only">(current)</span></a>
-            <ul class="dropdown-menu" role="menu">
-              <li class="nav-item"><a class="nav-link" href="index-2.html">首页 2</a></li>
-              <li class="nav-item"><a class="nav-link" href="index-3.html">首页 3</a></li>
-              <li class="nav-item"><a class="nav-link" href="index-4.html">首页 4</a></li>
-              <li class="nav-item"><a class="nav-link" href="index-5.html">首页 5</a></li>
-              <li class="nav-item"><a class="nav-link" href="index-6.html">首页 6</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">分类列表</a>
-            <ul class="dropdown-menu" role="menu">
-              <li class="nav-item"><a class="nav-link" href="category.html">默认左右</a></li>
-              <li class="nav-item"><a class="nav-link" href="category2.html">图片标题列表</a></li>
-              <li class="nav-item"><a class="nav-link" href="category3.html">图文卡片</a></li>
-              <li class="nav-item"><a class="nav-link" href="category4.html">图文卡片2</a></li>
-              <li class="nav-item"><a class="nav-link" href="category5.html">图片</a></li>
-            </ul>
-          </li>
-          <li class="nav-item"><a class="nav-link" href="single.html">文章</a></li>
-        </ul>
-
-        <form class="form-inline my-2 my-lg-0 float-right">
-          <input class="form-control mr-sm-2" type="text" placeholder="输入关键字">
-          <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">搜索</button>
-        </form>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="container">
+        <a class="navbar-brand" href="index.html">LeanTheme</a>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">首页 <span class="sr-only">(current)</span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li class="nav-item"><a class="nav-link" href="index-2.html">首页 2</a></li>
+                <li class="nav-item"><a class="nav-link" href="index-3.html">首页 3</a></li>
+                <li class="nav-item"><a class="nav-link" href="index-4.html">首页 4</a></li>
+                <li class="nav-item"><a class="nav-link" href="index-5.html">首页 5</a></li>
+                <li class="nav-item"><a class="nav-link" href="index-6.html">首页 6</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">分类列表</a>
+              <ul class="dropdown-menu" role="menu">
+                <li class="nav-item"><a class="nav-link" href="category.html">文章列表-中图</a></li>
+                <li class="nav-item"><a class="nav-link" href="category4.html">文章列表-大图</a></li>
+                <li class="nav-item"><a class="nav-link" href="category3.html">文章列表-Masonry布局</a></li>
+                <li class="nav-item"><a class="nav-link" href="category2.html">相册-Masonry1</a></li>
+                <li class="nav-item"><a class="nav-link" href="category5.html">相册-Masonry2</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="single.html">文章</a></li>
+          </ul>
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </header>
   <!-- page-header start-->
   <div class="jumbotron page-header rounded-0 bg-info text-white">
     <div class="container">
@@ -67,37 +68,38 @@
           <div class="main-content">
             <div class="card-list">
               <div class="card">
-                <div class="card-block">
+                <div class="card-body">
                   <h2 class="card-title"><a href="single.html">今天是个好日子啊！</a></h2>
-                  <p class="card-meta">
+                  <p class="card-text card-meta">
                     <span class="card-author"><a href="author.html">mxy</a></span> · 2017年10月11日
                   </p>
                   <a href="single.html" class="img-box" title="日本近忧">
-                    <img src="assets/img/765x315/765x315-1.jpg" class="card-img-top" alt="插画 ｜晁春彬">
+                    <img src="assets/img/765x315/765x315-1.jpg" class="card-img" alt="插画 ｜晁春彬">
                   </a>
-                  <p class="card-excerpt">这是一段简介，今天玩狼人杀真的感觉挺好。这是一段简介，今天玩狼人杀真的感觉挺好。这是一段简介，今天玩狼人杀真的感觉挺好。</p>
+                  <p class="card-text mt-3">这是一段简介，今天玩狼人杀真的感觉挺好。这是一段简介，今天玩狼人杀真的感觉挺好。这是一段简介，今天玩狼人杀真的感觉挺好。</p>
+                  <p class="card-text">
+                    <span class="read-more"><a href="single.html">阅读全文</a></span>
+                  </p>
                 </div>
-                <div class="card-footer">
-                  <span class="read-more"><a href="single.html">阅读全文</a></span>
-                </div>
+
               </div><!--./card-->
 
               <div class="card">
-                <div class="card-block">
+                <div class="card-body">
                   <h2 class="card-title"><a href="single.html">今天是个好日子啊！</a></h2>
-                  <p class="card-meta">
+                  <p class="card-text card-meta">
                     <span class="card-author"><a href="author.html">mxy</a></span> · 2017年10月11日
                   </p>
                   <p class="card-excerpt mt-3">这是一段简介，今天玩狼人杀真的感觉挺好。这是一段简介，今天玩狼人杀真的感觉挺好。这是一段简介，今天玩狼人杀真的感觉挺好。</p>
+                  <p class="card-text">
+                    <span class="read-more"><a href="single.html">阅读全文</a></span>
+                  </p>
+                </div>
 
-                </div>
-                <div class="card-footer">
-                  <span class="read-more">阅读全文</span>
-                </div>
               </div><!--./card-->
 
               <div class="card">
-                <div class="card-block">
+                <div class="card-body">
                   <div class="row">
                     <div class="col-4">
                       <a class="img-box" href="single.html" title="日本近忧">
@@ -106,19 +108,19 @@
                     </div>
                     <div class="col-8">
                       <h2 class="card-title"><a href="single.html">今天是个好日子啊！</a></h2>
-                      <p class="card-meta">
+                      <p class="card-text card-meta">
                         <span class="card-author"><a href="author.html">mxy</a></span> · 2017年10月11日
                       </p>
                       <p class="card-excerpt">这是一段简介，今天玩狼人杀真的感觉挺好。这是一段简介，今天玩狼人杀真的感觉挺好。这是一段简介，今天玩狼人杀真的感觉挺好。</p>
-                      <p class="card-meta">
-                        <span class="read-more">阅读全文</span>
+                      <p class="card-text">
+                        <span class="read-more"><a href="single.html">阅读全文</a></span>
                       </p>
                     </div>
                   </div>
                 </div>
               </div><!--./card-->
 
-              <div class="card card-block">
+              <div class="card card-body">
                 <div class="card card-inverse mb-0">
                   <a href="single.html" class="img-box" title="日本近忧">
                     <img src="assets/img/765x315/765x315-3.jpg" class="card-img" alt="插画 ｜晁春彬">
@@ -133,24 +135,24 @@
               </div>
 
               <div class="card">
-                <div class="card-block">
-                    <blockquote class="card-blockquote">
-                      <p>如果你看不惯我，请不要试图说服我活成你的样子可以吗，我们学会彼此欣赏好不好，每个人都该活出属于自己的样子。</p>
-                      <footer>
-                        <small class="text-muted">
-                          出自 <cite title="Source Title">亮点</cite>
-                        </small>
-                      </footer>
-                    </blockquote>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>如果你看不惯我，请不要试图说服我活成你的样子可以吗，我们学会彼此欣赏好不好，每个人都该活出属于自己的样子。</p>
+                    <footer class="blockquote-footer">
+                      <cite title="Source Title"><a href="single.html">伊人《亮点》</a></cite>
+                    </footer>
+                  </blockquote>
                 </div>
               </div>
 
               <div class="card">
-                <div class="card-block">
-                  <p class="card-text">如果你看不惯我，请不要试图说服我活成你的样子可以吗，我们学会彼此欣赏好不好，每个人都该活出属于自己的样子。</p>
-                </div>
-                <div class="card-footer">
-                  <span class="card-author"><a href="author.html">mxy</a></span> · 2017年10月11日 16:34:56
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>如果你看不惯我，请不要试图说服我活成你的样子可以吗，我们学会彼此欣赏好不好，每个人都该活出属于自己的样子。</p>
+                    <footer class="blockquote-footer">
+                      <cite title="Source Title"><a href="single.html">2017年7月3日</a></cite>
+                    </footer>
+                  </blockquote>
                 </div>
               </div>
 
@@ -163,7 +165,7 @@
           <div class="sidebar">
             <div class="card">
               <h3 class="card-header">编辑推荐</h3>
-              <div class="card-block">
+              <div class="card-body">
                 <ul class="list-unstyled">
                   <li><a href="single.html" rel="bookmark">日本公司缺远虑，中国公司缺近忧缺近忧缺近忧缺近忧缺近忧缺近忧</a></li>
                   <li><a href="single.html" rel="bookmark">天润融通入选最具活力云计算服务商</a></li>
