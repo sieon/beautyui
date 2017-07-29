@@ -1,5 +1,5 @@
 body {
-  padding-top: 3.8rem;
+  padding-top: 3.5rem;
   background-color: #f7f8fa; }
 
 .bg-white {
@@ -11,10 +11,6 @@ body {
 
 .d_tags {
   margin: -5px 0; }
-
-.d_tags .btn,
-.post-tags .btn {
-  border-radius: 80px; }
 
 .d_tags .btn {
   margin: 5px 0; }
